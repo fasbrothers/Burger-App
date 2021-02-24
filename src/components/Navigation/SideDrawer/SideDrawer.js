@@ -6,7 +6,7 @@ import "./SideDrawer.css";
 const sideDrawer = (props) => {
     return (
         <div className='SideDrawer'>
-            <Logo height='11%' />
+            <Logo height='11%' marginButtom='0 0 32px 0' />
             <nav>
                 <NavigationItems />
             </nav>
