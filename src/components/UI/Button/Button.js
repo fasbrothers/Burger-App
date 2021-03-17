@@ -3,7 +3,7 @@ import './Button.css'
 
 const button = (props) => (
     <span className='Button' >
-        <button className={props.className} onClick={props.clicked}>{props.children}</button>
+        <button disabled={props.disabled} className={props.className} onClick={props.clicked}>{props.children}</button>
     </span>
 )
 
